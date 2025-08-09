@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int a[] = {1, 1, 2, 2, 5, 3, 4,};
+    int a[] = {1, 1, 2, 2, 3, 3, 4};
     int c[8];
     int k = 0;
     int s = 0;
