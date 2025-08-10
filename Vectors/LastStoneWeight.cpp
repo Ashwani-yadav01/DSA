@@ -18,14 +18,14 @@ int lastStoneWeight(vector<int> &stones)
                 stones.pop_back();
                 stones.pop_back();
             }
-            if (stones[i - 1] < stones[i])
+            else
             {
                 stones[i - 1] = stones[i] - stones[i - 1];
                 stones.pop_back();
             }
 
             sort(stones.begin(), stones.end()); // Ensure the vector is sorted
-            
+
             if (stones.size() == 1 || stones.size() == 0)
             {
                 return stones.size() == 1 ? stones[0] : 0;
@@ -43,7 +43,7 @@ int lastStoneWeight(vector<int> &stones)
 }
 int main()
 {
-    vector<int> vec = {2, 7, 4, 2, 8, 1};
+    vector<int> vec = {1,1,2,4};
     int ans = lastStoneWeight(vec);
     cout << ans << endl;
     return 0;
