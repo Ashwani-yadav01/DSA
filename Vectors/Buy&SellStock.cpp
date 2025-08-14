@@ -1,33 +1,23 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-int main()
+int maxProfit(vector<int> &prices)
 {
-    vector<int> price = {7,6,4,3,1};
-    int n = price.size();
-    int buyStock = price[0];
-    int day = 0;
+    int n = prices.size();
+    int maxProfit = 0;
+    int bestBuy = prices[0];
     for (int i = 1; i < n; i++)
     {
-        if (buyStock > price[i])
-        {
-            buyStock = price[i];
-            day=i;
-        }
+        if (prices[i] > bestBuy)
+            maxProfit = max(maxProfit, prices[i] - bestBuy);
+         
+        bestBuy = min(prices[i], bestBuy);     
     }
-    cout << buyStock << endl;
-     cout << day << endl;
-
-     int sellStock=0;
-     for (int i = day+1; i < n; i++)
-    {
-        if (sellStock < price[i])
-        {
-            sellStock = price[i];
-            
-        }
-    }
-     cout << sellStock << endl;
-     cout<< "profit" << sellStock-buyStock;
+    return maxProfit;
+}
+int main()
+{
+    vector<int> vec = {7, 1, 5, 3, 6, 4};
+    cout << maxProfit(vec) << endl;
     return 0;
 }
