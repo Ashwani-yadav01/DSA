@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Ashwani yadav/OneDrive/Desktop/DSA/String",
-      "program": "c:/Users/Ashwani yadav/OneDrive/Desktop/DSA/String/build/Debug/outDebug",
+      "cwd": "c:/Users/Ashwani yadav/OneDrive/Desktop/DSA/2dArray",
+      "program": "c:/Users/Ashwani yadav/OneDrive/Desktop/DSA/2dArray/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
