@@ -112,9 +112,16 @@ struct Node *deleteAtPosition(struct Node *head, int pos)
         printf("List is empty\n");
         return NULL;
     }
-
+    
     struct Node *temp = head;
-
+    int count = 0;
+    while(temp!=NULL){
+        count++;
+        temp = temp->next;
+    }
+    printf("Count is %d\n",count);
+    pos=count-pos;
+    temp = head;
     if (pos == 0)
     {
         head = temp->next;
@@ -146,15 +153,18 @@ int main()
     struct Node *head = (struct Node *)malloc(sizeof(struct Node));
     struct Node *second = (struct Node *)malloc(sizeof(struct Node));
     struct Node *third = (struct Node *)malloc(sizeof(struct Node));
+    struct Node *four = (struct Node *)malloc(sizeof(struct Node));
 
     head->data = 10;
     head->next = second;
     second->data = 20;
     second->next = third;
     third->data = 30;
-    third->next = NULL;
+    third->next = four;
+    four->data = 40;
+    four->next = NULL;
     traverse(head);
-    head = insertAtPosition(head, 12, 0);
+    head = deleteAtPosition(head,  2);
     traverse(head);
     return 0;
 }
