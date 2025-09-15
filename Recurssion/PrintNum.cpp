@@ -1,11 +1,14 @@
 #include <iostream>
 #include <vector>
+#include <string>
+
 using namespace std;
+
 void printNum(int a, int b)
 {
-    if (a == b)
+    if (a > b)
     {
-        cout << a << " ";
+
         return;
     }
 
@@ -45,11 +48,42 @@ bool isSorted(vector<int> &vec, int n)
 
     return (vec[n - 1] >= vec[n - 2]) && isSorted(vec, n - 1);
 }
+
+int sumA(vector<int> a)
+{
+    if (a.size() == 0)
+    {
+        return 0;
+    }
+    int b = a[0];
+    a.erase(a.begin());
+    return b + sumA(a);
+}
+
+string reverseString(string s)
+{
+    if (s.length() == 0)
+    {
+        return "";
+    }
+    char ch = s[0];
+    string ans = reverseString(s.substr(1));
+    return ans + ch;
+}
+
+int factorial(int n){
+    if(n<0) return -1;
+    if(n==0 || n==1) return 1;
+    return n *factorial(n-1);
+}
 int main()
 {
-    vector<int> vec = {1, 2, 6, 4, 5};
-    int n = vec.size();
-
-    cout << isSorted(vec, n);
+    string s = "abcd";
+    // cout << reverseString(s);
+    //  string s1 = "abcde";
+    //  string s2 = "abcde";
+    //  cout << s1+s2<< endl;
+    
+    cout<< factorial(-1)<< " ";
     return 0;
 }
