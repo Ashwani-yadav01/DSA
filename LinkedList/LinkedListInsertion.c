@@ -105,48 +105,39 @@ struct Node *deleteAtValue(struct Node *head, int data)
     temp->next = NULL;
     return head;
 }
-struct Node *deleteAtPosition(struct Node *head, int pos)
-{
-    if (head == NULL)
-    {
+struct Node *deleteAtPosition(struct Node *head, int pos) {
+    if (head == NULL) {
         printf("List is empty\n");
         return NULL;
     }
-    
-    struct Node *temp = head;
-    int count = 0;
-    while(temp!=NULL){
-        count++;
-        temp = temp->next;
-    }
-    printf("Count is %d\n",count);
-    pos=count-pos;
-    temp = head;
-    if (pos == 0)
-    {
-        head = temp->next;
+
+    // Delete head
+    if (pos == 0) {
+        struct Node *temp = head;
+        head = head->next;
         free(temp);
         return head;
     }
 
+    struct Node *temp = head;
     struct Node *prev = NULL;
-    for (int i = 0; i < pos && temp != NULL; i++)
-    {
+
+    // Traverse to the node to delete
+    for (int i = 0; i < pos && temp != NULL; i++) {
         prev = temp;
         temp = temp->next;
     }
 
-    if (temp == NULL)
-    {
-        printf("The position is out of bound\n");
+    if (temp == NULL) {
+        printf("Position out of bound\n");
         return head;
     }
 
+    // Remove node
     prev->next = temp->next;
     free(temp);
     return head;
 }
-
 int main()
 {
     // Create initial list: 10 -> 20 -> 30
@@ -164,7 +155,7 @@ int main()
     four->data = 40;
     four->next = NULL;
     traverse(head);
-    head = deleteAtPosition(head,  2);
+    head = deleteAtPosition(head,  1);
     traverse(head);
     return 0;
 }

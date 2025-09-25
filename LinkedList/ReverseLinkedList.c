@@ -19,7 +19,19 @@ void traverse(struct Node *head)
     }
     printf("NULL\n");
 }
+struct Node* reverseList(struct Node* head) {
+    struct Node* prev = NULL;
+    struct Node* curr = head;
+    struct Node* next = NULL;
 
+    while (curr != NULL) {
+        next = curr->next; // Store next node
+        curr->next = prev; // Reverse current node's pointer
+        prev = curr;       // Move pointers one position ahead
+        curr = next;
+    }
+    return prev; // New head of the reversed list
+}
 int reverse(struct Node *head)
 {
      struct Node *temp1 = head;
@@ -59,14 +71,12 @@ int main()
     head->next = second;
     second->data = 2;
     second->next = third;
-    third->data = 1;
+    third->data = 3;
     third->next = NULL;
     traverse(head);
-    printf("Reversed List:\n");
-    int result = reverse(head);
-    if (result==1)
-        printf("Palindrome\n");
-    else
-        printf("Not a Palindrome\n");
+    head=reverseList(head);
+    traverse(head);
+   
+    
     return 0;
 }
