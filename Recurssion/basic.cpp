@@ -28,22 +28,50 @@ using namespace std;
 // }
 
 // print 1 to n with backtrack
-int print(int n)
-{
-    if (0 == n)
-        return n;
+// int print(int n)
+// {
+//     if (0 == n)
+//         return n;
 
-    print(n - 1);
-    cout << n << " ";
-    return n;
-}
+//     print(n - 1);
+//     cout << n << " ";
+//     return n;
+// }
 // print n to 1 with backtrack
-int print(int n, int i) {
-    if (i > n) return i;  // stop when i exceeds n
+// int print(int n, int i)
+// {
+//     if (i > n)
+//         return i;    // stop when i exceeds n
+//     print(n, i + 1); // go deep first
+//                      // print on the way back
+//     return n;
+// }
+// int sumOfN(int n)
+// {
+//     if (n == 0)
+//         return n;
+//     return n + sumOfN(n - 1);
+// }
 
-    print(n, i + 1);      // go deep first
-    cout << i << " ";     // print on the way back
-    return n;
+// void severse(int i, vector<int> &v)
+// {
+//     if (i >= v.size() / 2)
+//     {
+//         return;
+//     }
+//     swap(v[i], v[v.size() - i - 1]);
+//     severse(i + 1, v);
+// }
+bool palidrome(string &s, int i)
+{
+    if (i >= s.size() / 2)
+    {
+        return true;
+    }
+
+    if(s[i]!=s[s.size()-i-1]) return false;
+    
+    return palidrome(s,i+1);
 }
 int main()
 {
@@ -51,6 +79,16 @@ int main()
     //    print(1);
     // num(10,1);
     // print(10);
-    print(10, 1);
+    //    cout << sumOfN(3);
+
+    // vector<int> vec = {1, 2, 3, 4, 5};
+    // severse(0, vec);
+    // for (int val : vec)
+    // {
+    //     cout << val << " ";
+    // }
+string s="madar";
+int i=0;
+    cout<< palidrome(s,i);
     return 0;
 }
