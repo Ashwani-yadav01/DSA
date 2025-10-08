@@ -8,17 +8,12 @@ int main()
 
     for (int i = 0; i < n; i++)
     {
-        int minValue = INT_FAST32_MAX;
-        int k = 0;
-        for (int j = i; j < n; j++)
+        int j=i;
+        while(j>0 && arr[j-1]>arr[j])
         {
-            if (minValue > arr[j])
-            {
-                minValue = arr[j];
-                k = j;
-            }
+            swap(arr[j], arr[j-1]);
+            j--;
         }
-        swap(arr[i], arr[k]);
     }
     for (int val : arr)
     {

@@ -1,29 +1,27 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-void insertionSort(vector<int> &arr)
+void insertionSort(int arr[])
 {
-    int n = arr.size();
-
-    for (int i = 1; i < n; i++)
+    int n = 5;
+    for (int i = 0; i < n; i++)
     {
-        int curr = arr[i];
-        int prev = i - 1;
-        while (prev >= 0 && arr[prev] > curr)
+        for (int j = i + 1; j < n; j++)
         {
-            arr[prev + 1] = arr[prev];
-            prev--;
+            if (arr[i] > arr[j])
+            {
+                swap(arr[i], arr[j]);
+            }
         }
-        arr[prev + 1] = curr;
     }
-    for (int val : arr)
+    for (int i = 0; i < n; i++)
     {
-        cout << val << " ";
+        cout << arr[i] << " ";
     }
 }
 int main()
 {
-    vector<int> arr = {2, 3, 1, 4, 5};
+    int arr[5] = {2, 3, 1, 4, 5};
     insertionSort(arr);
     return 0;
 }
