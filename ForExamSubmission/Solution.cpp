@@ -30,7 +30,9 @@ bool isValid(string s) {
 
 //stock span(leetcode 901) this saved in leetcode
 
+// 1653 saved in leetcode
 
+// 506 saved in leetcode
 
 
 
