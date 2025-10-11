@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 int main()
-{
+{   
     vector<int> nums = {-1, -2, -3, -4, -5};
     int curSum = 0;
     int maxSum = INT32_MIN;
