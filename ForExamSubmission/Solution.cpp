@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// valid parentheses(leetcode 20)
 
 
 bool isValid(string s) {
@@ -27,6 +26,7 @@ bool isValid(string s) {
         return st.empty();
     }
 
+// valid parentheses(leetcode 20)
 
 //stock span(leetcode 901) this saved in leetcode
 
@@ -34,8 +34,9 @@ bool isValid(string s) {
 
 // 506 saved in leetcode
 
+//1346 saved in leetcode
 
-
+// 2089 saved in leetcode
 
     int main() {
     
