@@ -26,16 +26,17 @@ bool isValid(string s) {
         return st.empty();
     }
 
-// valid parentheses(leetcode 20)
 
-//stock span(leetcode 901) this saved in leetcode
 
 // 1653 saved in leetcode
 
 // 506 saved in leetcode
 
+// 1854 saved in leetcode
 
+//1422 saved in leetcode
 
+//2670 saved in leetcode
     int main() {
     
     // your code here
