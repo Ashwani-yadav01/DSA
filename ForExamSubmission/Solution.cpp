@@ -26,8 +26,6 @@ bool isValid(string s) {
         return st.empty();
     }
 
-
-
 // 1653 saved in leetcode
 
 // 506 saved in leetcode
@@ -39,6 +37,8 @@ bool isValid(string s) {
 //2670 saved in leetcode
 
 //2299 saved in leetcode
+
+//completed 200
     int main() {
     
     // your code here
