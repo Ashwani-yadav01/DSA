@@ -38,6 +38,11 @@ bool isValid(string s) {
 //456 saved in leetcode
 // 155 saved in leetcode
 //completed 200
+
+//232 saved in leetcode
+//387 saved in leetcode
+
+//2073 saved in leetcode
     int main() {
     
     // your code here
