@@ -46,7 +46,6 @@ bool isValid(string s) {
 
 //2073 saved in leetcode
 
-// 860 saved in leetcode
 
 // 1323 saved in leetcode
     int main() {
