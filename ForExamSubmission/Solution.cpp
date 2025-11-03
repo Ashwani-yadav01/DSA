@@ -3,31 +3,6 @@ using namespace std;
 
 
 
-bool isValid(string s) {
-        stack<char> st;
-
-        for (char ch : s) {
-            if (ch == '(' || ch == '{' || ch == '[') {
-                st.push(ch);
-            } else {
-                if (st.empty()) return false;
-
-                char top = st.top();
-                st.pop();
-
-                if ((ch == ')' && top != '(') ||
-                    (ch == '}' && top != '{') ||
-                    (ch == ']' && top != '[')) {
-                    return false;
-                }
-            }
-        }
-
-        return st.empty();
-    }
-
-// 1653 saved in leetcode
-
 // 1854 saved in leetcode
 
 //1422 saved in leetcode
@@ -45,8 +20,9 @@ bool isValid(string s) {
 
 //2073 saved in leetcode
 
-
 // 1323 saved in leetcode
+
+// trees 94 145 102 104 202
     int main() {
     
     // your code here
