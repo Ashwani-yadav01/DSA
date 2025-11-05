@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
-
 // 1854 saved in leetcode
 
 //1422 saved in leetcode
@@ -16,7 +14,6 @@ using namespace std;
 //completed 200
 
 //232 saved in leetcode
-
 
 //2073 saved in leetcode
 
