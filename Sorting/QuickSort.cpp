@@ -22,13 +22,13 @@ void quickSort(vector<int> &arr, int start, int end)
     {
         int pivIdx = partition(arr, start, end);
         quickSort(arr, start, pivIdx - 1); // left halft
-        quickSort(arr, pivIdx + 1, end);
+        quickSort(arr, pivIdx + 1, end);//right half
     }
 }
 int main()
 {
 
-    vector<int> arr = {2, 3, 1, 4, 5};
+    vector<int> arr = {2,1,3,5,4};
     quickSort(arr, 0, arr.size() - 1);
     for (int val : arr)
     {
