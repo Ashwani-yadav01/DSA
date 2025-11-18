@@ -17,7 +17,6 @@ using namespace std;
 
 //2073 saved in leetcode
 
-// 1323 saved in leetcode
 
 //105 
     int main() {
