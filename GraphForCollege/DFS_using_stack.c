@@ -49,8 +49,8 @@ int main()
         {0, 1, 1, 0, 0}
     };
 
-    int start = 3;
-    dfs(graph, n, start);
+    int start = 2;
+    dfsUsingStack(graph, n, start);
 
     return 0;
 }

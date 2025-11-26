@@ -142,12 +142,19 @@ void preorder(struct Node* root) {
 int main() {
     struct Node* root = NULL;
 
-    root = insert(root, 10);
-    root = insert(root, 20);
-    root = insert(root, 30);
-    root = insert(root, 40);
-    root = insert(root, 50);
-    root = insert(root, 25);
+   root = insert(root, 78);
+root = insert(root, 45);
+root = insert(root, 55);
+root = insert(root, 1);
+root = insert(root, 2);
+root = insert(root, 3);
+root = insert(root, 90);
+root = insert(root, 80);
+root = insert(root, 84);
+root = insert(root, 100);
+root = insert(root, 99);
+root = insert(root, 98);
+
 
     printf("Preorder Traversal of AVL Tree:\n");
     preorder(root);
