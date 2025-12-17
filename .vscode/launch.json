@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Ashwani yadav/OneDrive/Desktop/DSA/MathsForDsa",
-      "program": "c:/Users/Ashwani yadav/OneDrive/Desktop/DSA/MathsForDsa/build/Debug/outDebug",
+      "cwd": "c:/Users/Ashwani yadav/OneDrive/Desktop/DSA/Algo",
+      "program": "c:/Users/Ashwani yadav/OneDrive/Desktop/DSA/Algo/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

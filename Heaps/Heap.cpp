@@ -90,3 +90,37 @@ int main() {
 
     return 0;
 }
+void mergeSort(vector<int>& arr, int left, int right) {
+    if (left >= right) return;
+
+    int mid = left + (right - left) / 2;
+    mergeSort(arr, left, mid);
+    mergeSort(arr, mid + 1, right);
+
+    vector<int> merged;
+    int i = left, j = mid + 1;
+
+    while (i <= mid && j <= right) {
+        if (arr[i] <= arr[j]) {
+            merged.push_back(arr[i]);
+            i++;
+        } else {
+            merged.push_back(arr[j]);
+            j++;
+        }
+    }
+
+    while (i <= mid) {
+        merged.push_back(arr[i]);
+        i++;
+    }
+
+    while (j <= right) {
+        merged.push_back(arr[j]);
+        j++;
+    }
+
+    for (int k = 0; k < merged.size(); k++) {
+        arr[left + k] = merged[k];
+    }
+}
