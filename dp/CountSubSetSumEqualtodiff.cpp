@@ -1,0 +1,51 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+
+    // your code here
+    vector<int> arr = {1, 1, 1, 1, 1};
+    int diff = 3;
+    int n = arr.size();
+    int total = 0;
+    for (int i = 0; i < n; i++)
+    {
+        total += arr[i];
+    }
+    int target = (diff + total )/ 2;
+    cout<< "Target is " << target << endl;
+    int dp[n + 1][target + 1];
+    for (int i = 0; i <= n; i++)
+    {
+        for (int j = 0; j <= target; j++)
+        {
+            if (i == 0)
+            {
+                dp[i][j] = 0;
+            }
+            if (j == 0)
+            {
+                dp[i][j] = 1;
+            }
+        }
+    }
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= target; j++)
+        {
+            if (arr[i - 1] <= j)
+            {
+                dp[i][j] = dp[i - 1][j - arr[i - 1]] + dp[i - 1][j];
+            }
+            else
+            {
+                dp[i][j] = dp[i - 1][j];
+            }
+        }
+    }
+
+    cout << dp[n][target];
+
+    return 0;
+}
