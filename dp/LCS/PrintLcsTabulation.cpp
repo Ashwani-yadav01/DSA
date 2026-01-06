@@ -21,7 +21,7 @@ int main() {
     }
 
     string str="";
-    int i=n+1,j=m+1;
+    int i=n,j=m;
     while (i > 0 && j > 0) {
         if (s1[i - 1] == s2[j - 1]) {
             str+=s1[i - 1];

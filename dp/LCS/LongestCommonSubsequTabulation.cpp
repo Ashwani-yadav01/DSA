@@ -23,3 +23,18 @@ int main() {
     cout << dp[n][m];  // Output: 4
     return 0;
 }
+// for find the lenght of shortest common subsequence we have to use the formula
+// Length of SCS = Length of s1 + Length of s2 - Length of LCS
+// 1143
+// 1092
+// 583
+// 712
+// 1035
+// 1458
+// 97
+// 115
+// 72
+// 392
+// 516
+// 1312
+// 1682
