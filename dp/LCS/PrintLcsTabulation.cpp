@@ -37,3 +37,4 @@ int main() {
     cout << str;
     return 0;
 }
+// cover palindomre substring problem as well
