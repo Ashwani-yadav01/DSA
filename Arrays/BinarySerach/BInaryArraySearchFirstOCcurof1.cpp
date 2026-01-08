@@ -30,3 +30,7 @@ int main() {
     cout << binarySearch(arr,st,end,target);
     return 0;
 }
+// 1 2 3 4 5 11 12 // minium diffrence
+// key = 5 // 1.present next smaller and next greater 
+// ans = next gearter - key=
+// ans = key-nextsmaller =
