@@ -38,3 +38,69 @@ int main() {
 // 516
 // 1312
 // 1682
+
+// 1. Two-Pointer / Greedy / Pairing under Constraints
+
+// LeetCode 881 – Boats to Save People
+
+// LeetCode 452 – Minimum Number of Arrows to Burst Balloons
+
+// LeetCode 435 – Non-overlapping Intervals
+
+// LeetCode 253 – Meeting Rooms II
+
+// LeetCode 986 – Interval List Intersections
+
+// Pattern to practice: sort → two pointers → greedy decision
+
+// 2. DP on Subsequences / Strings
+
+// LeetCode 718 – Maximum Length of Repeated Subarray
+
+// LeetCode 516 – Longest Palindromic Subsequence
+
+// LeetCode 1092 – Shortest Common Supersequence Length
+
+// LeetCode 647 – Palindromic Substrings
+
+// LeetCode 115 – Distinct Subsequences
+
+// Pattern: dp[i][j] over substrings → count / length / boolean
+
+// 3. DP on Partitions / Groupings
+
+// LeetCode 312 – Burst Balloons
+
+// LeetCode 1039 – Minimum Score Triangulation of Polygon
+
+// LeetCode 139 – Word Break
+
+// LeetCode 279 – Perfect Squares
+
+// LeetCode 322 – Coin Change
+
+// Pattern: Partition sequence → combine subproblems → optimize
+
+// 4. DP on Intervals / Matrix
+
+// LeetCode 85 – Maximal Rectangle
+
+// LeetCode 62 – Unique Paths
+
+// LeetCode 63 – Unique Paths II
+
+// LeetCode 221 – Maximal Square
+
+// Pattern: Build DP over 2D states → careful with base cases
+
+// 5. DP with State Compression / Optimization
+
+// LeetCode 198 – House Robber
+
+// LeetCode 213 – House Robber II
+
+// LeetCode 256 – Paint House
+
+// LeetCode 265 – Paint House II
+
+Pattern: Optimize space → 1D instead of 2D → rolling array
