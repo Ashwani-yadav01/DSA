@@ -103,4 +103,4 @@ int main() {
 
 // LeetCode 265 – Paint House II
 
-Pattern: Optimize space → 1D instead of 2D → rolling array
+// Pattern: Optimize space → 1D instead of 2D → rolling array
