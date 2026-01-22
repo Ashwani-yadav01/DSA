@@ -44,7 +44,7 @@ This is a mini roadmap to master the pattern of selecting at most two items unde
 ## Step 5 – Single / Multiple Items + Reward
 
 5. [LC 2542 – Maximum Subsequence Score](https://leetcode.com/problems/maximum-subsequence-score/)
-
+   * learn this question
    * Generalizes from 2 items → k items
    * Teaches combining value + constraint efficiently
 
