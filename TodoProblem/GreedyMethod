@@ -1,0 +1,121 @@
+
+
+## Phase 1: Greedy Basics (Decision Making Intuition)
+
+👉 Learn **how to choose locally optimal choices**
+
+1. **Assign Cookies** (LeetCode 455)
+   *Greedy idea:* smallest cookie → smallest greed
+   *(Striver Sheet)*
+
+2. **Lemonade Change** (LeetCode 860)
+   *Greedy idea:* always preserve larger change
+   *(Apna College Sheet)*
+
+3. **Maximum Units on a Truck** (LeetCode 1710)
+   *Greedy idea:* sort by value density
+
+4. **Minimum Number of Coins**
+   (Classic problem – GeeksForGeeks)
+   *Greedy currency system*
+
+---
+
+## Phase 2: Interval-Based Greedy (Very Important)
+
+👉 **Sorting + selection** is the heart of Greedy
+
+5. **Activity Selection Problem**
+   *(Striver + Apna College MUST-DO)*
+   *Sort by end time*
+
+6. **Non-overlapping Intervals** (LeetCode 435)
+   *Greedy removal strategy*
+   *(Striver Sheet)*
+
+7. **Minimum Number of Arrows to Burst Balloons** (LeetCode 452)
+   *Interval overlap logic*
+
+8. **Meeting Rooms II** (LeetCode 253)
+   *Greedy + priority queue (still medium)*
+
+---
+
+## Phase 3: Greedy with Sorting & Pairing
+
+👉 Choose best pairs to minimize/maximize result
+
+9. **Boat to Save People** (LeetCode 881)
+   *Two-pointer greedy*
+   *(Striver Sheet)*
+
+10. **Two City Scheduling** (LeetCode 1029)
+    *Sort by cost difference*
+
+11. **Minimum Absolute Difference in Pairs**
+    (GFG / Apna College)
+
+12. **Bag of Tokens** (LeetCode 948)
+    *Greedy with two ends*
+
+---
+
+## Phase 4: Greedy + Priority Queue (Medium Core)
+
+👉 Slight upgrade in thinking, still manageable
+
+13. **IPO** (LeetCode 502)
+    *Maximize capital step by step*
+
+14. **Task Scheduler** (LeetCode 621)
+    *Greedy frequency arrangement*
+    *(Striver Sheet)*
+
+15. **Reorganize String** (LeetCode 767)
+    *Greedy with max-heap*
+
+---
+
+## Phase 5: Classic Greedy Optimization Problems
+
+👉 Very popular in interviews
+
+16. **Jump Game** (LeetCode 55)
+    *Reachability greedy*
+    *(Striver Sheet)*
+
+17. **Jump Game II** (LeetCode 45)
+    *Level-based greedy*
+
+18. **Gas Station** (LeetCode 134)
+    *Greedy feasibility check*
+    *(Striver Sheet)*
+
+646. Maximum Length of Pair Chain
+---
+
+## Phase 6: Exam + Interview Favorites
+
+👉 Common in **Apna College + Striver discussions**
+
+19. **Fractional Knapsack**
+    *(Apna College Sheet – VERY IMPORTANT)*
+    *Sort by value/weight*
+
+20. **Minimum Platforms**
+    *(Striver + Apna College)*
+    *Greedy with sorting*
+
+---
+
+## How to Solve for Maximum Understanding 🧠
+
+Follow this **rule while solving**:
+
+* First **write brute force**
+* Ask: *What if I sort by something?*
+* Ask: *What is the local optimal choice?*
+* Prove with examples why it works
+
+
+
