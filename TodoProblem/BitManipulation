@@ -1,0 +1,171 @@
+
+
+# 🟢 EASY (10) — Build Core Intuition
+
+👉 Goal: understand **XOR, AND, OR, shifts**
+
+### 1. Single Number (LC 136)
+
+* XOR cancels duplicates
+* **Core concept**: `a ^ a = 0`
+
+### 2. Single Number II (LC 137)
+
+* Bit counting (mod 3)
+* First “non-obvious” bit trick
+
+### 3. Power of Two (LC 231)
+
+* `(n & (n-1)) == 0`
+
+### 4. Counting Bits (LC 338)
+
+* DP + lowest set bit
+
+### 5. Hamming Distance (LC 461)
+
+* XOR + count bits
+
+### 6. Number of 1 Bits (LC 191)
+
+* Brian Kernighan’s algorithm
+
+### 7. Missing Number (LC 268)
+
+* XOR from `0..n`
+
+### 8. Reverse Bits (LC 190)
+
+* Shift + mask
+
+### 9. Complement of Base 10 Integer (LC 1009)
+
+* Flip bits till MSB
+
+### 10. Find the Difference (LC 389)
+
+* XOR on chars
+
+✔️ After these → XOR & bit counting should feel natural.
+
+---
+
+# 🟡 MEDIUM (20) — Real Patterns Start Here
+
+👉 Goal: **recognize which bit trick to use**
+
+---
+
+## 🔹 Pattern 1: XOR / Unique Numbers
+
+### 1. Single Number III (LC 260)
+
+* Two unique numbers
+* `xor & -xor` trick ⭐
+
+### 2. Find the Duplicate Number (LC 287)
+
+* Bit count comparison
+
+---
+
+## 🔹 Pattern 2: Subsets & Masks
+
+### 3. Subsets (LC 78)
+
+* Bitmask representation
+
+### 4. Subsets II (LC 90)
+
+* Mask + duplicates handling
+
+---
+
+## 🔹 Pattern 3: Bitmask DP / State Compression
+
+### 5. Maximum Product of Word Lengths (LC 318)
+
+* String → bitmask
+
+### 6. Partition to K Equal Sum Subsets (LC 698)
+
+* Bitmask + DP (important)
+
+---
+
+## 🔹 Pattern 4: AND / OR Logic
+
+### 7. Bitwise AND of Numbers Range (LC 201)
+
+* Shift until equal
+
+### 8. Count Triplets That Can Form Two Arrays of Equal XOR (LC 1442)
+
+### 9. Minimum Flips to Make a OR b Equal to c (LC 1318)
+
+---
+
+## 🔹 Pattern 5: Greedy + Bits
+
+### 10. Maximum XOR of Two Numbers in an Array (LC 421)
+
+* Prefix mask trick ⭐⭐⭐
+
+### 11. Minimize XOR (LC 2429)
+
+---
+
+## 🔹 Pattern 6: Math + Bits
+
+### 12. Divide Two Integers (LC 29)
+
+* Bit shifts for division
+
+### 13. Sum of Two Integers (LC 371)
+
+* No `+` operator
+
+---
+
+## 🔹 Pattern 7: Sliding Window + Bits
+
+### 14. Longest Nice Subarray (LC 2401)
+
+* Window + AND logic
+
+---
+
+## 🔹 Pattern 8: Advanced XOR
+
+### 15. XOR Queries of a Subarray (LC 1310)
+
+### 16. Decode XORed Array (LC 1720)
+
+---
+
+## 🔹 Pattern 9: Set / Clear Bits Intentionally
+
+### 17. Gray Code (LC 89)
+
+### 18. Circular Permutation in Binary Representation (LC 1238)
+
+---
+
+## 🔹 Pattern 10: Counting Bits in Ranges
+
+### 19. Total Hamming Distance (LC 477)
+
+### 20. Count Number of Maximum Bitwise-OR Subsets (LC 2044)
+
+---
+
+# 🧠 HOW TO MASTER (this is important)
+
+For **every problem**, force yourself to answer:
+
+1. Is XOR cancelling something?
+2. Do I need bit counts per position?
+3. Can I encode state in a bitmask?
+4. Can shifting reduce the problem?
+
+If yes → bit manipulation is the answer.
