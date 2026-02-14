@@ -37,32 +37,32 @@ These build intuition.
 
 Now real thinking starts.
 
-11. **Single Number II** (LC 137)
+11. **Single Number II** (LC 137) S
     → Mod 3 bit counting trick 🔥
 
-12. **Single Number III** (LC 260)
+12. **Single Number III** (LC 260) S
     → XOR partition trick
 
-13. **Subsets** (LC 78)
+13. **Subsets** (LC 78) S
     → Bitmask generation
 
-14. **Subsets II** (LC 90)
+14. **Subsets II** (LC 90) S
 
 15. **Gray Code** (LC 89)
 
 16. **Maximum XOR of Two Numbers in an Array** (LC 421) 🔥
     → Trie / greedy bitwise
 
-17. **Bitwise AND of Numbers Range** (LC 201)
+17. **Bitwise AND of Numbers Range** (LC 201) S
 
-18. **Sum of Two Integers** (LC 371)
+18. **Sum of Two Integers** (LC 371) S
     → Add without `+`
 
-19. **Total Hamming Distance** (LC 477)
+19. **Total Hamming Distance** (LC 477) S
 
-20. **Find the Difference** (LC 389)
+20. **Find the Difference** (LC 389) S
 
-21. **Repeated DNA Sequences** (LC 187)
+21. **Repeated DNA Sequences** (LC 187)S(sliding window)
     → Bit encoding trick
 
 22. **Maximum Product of Word Lengths** (LC 318)
