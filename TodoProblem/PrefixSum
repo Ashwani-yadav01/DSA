@@ -1,0 +1,68 @@
+
+
+# 🟢 10 EASY (Fundamentals)
+
+1. **303** – Range Sum Query - Immutable S
+2. **724** – Find Pivot Index S
+3. **1480** – Running Sum of 1d Array S
+4. **1732** – Find the Highest Altitude S
+5. **304** – Range Sum Query 2D - Immutable
+6. **2559** – Count Vowel Strings in Ranges
+7. **1413** – Minimum Value to Get Positive Step by Step Sum
+8. **1854** – Maximum Population Year
+9. **1588** – Sum of All Odd Length Subarrays
+10. **2574** – Left and Right Sum Differences
+
+---
+
+# 🟡 20 MEDIUM (All Important Patterns)
+
+---
+
+## 🔹 Prefix + HashMap (Subarray Sum K Pattern)
+
+11. **560** – Subarray Sum Equals K
+12. **523** – Continuous Subarray Sum
+13. **974** – Subarray Sums Divisible by K
+14. **930** – Binary Subarrays With Sum
+15. **1248** – Count Number of Nice Subarrays
+
+---
+
+## 🔹 Longest Subarray Pattern
+
+16. **325** – Maximum Size Subarray Sum Equals k
+17. **525** – Contiguous Array
+18. **1493** – Longest Subarray of 1's After Deleting One Element
+
+---
+
+## 🔹 2D Prefix Sum
+
+19. **1074** – Number of Submatrices That Sum to Target
+20. **363** – Max Sum of Rectangle No Larger Than K
+
+---
+
+## 🔹 Difference Array / Range Update
+
+21. **1094** – Car Pooling
+22. **1109** – Corporate Flight Bookings
+23. **848** – Shifting Letters
+24. **370** – Range Addition
+
+---
+
+## 🔹 Prefix XOR
+
+25. **1442** – Count Triplets That Can Form Two Arrays of Equal XOR
+26. **1310** – XOR Queries of a Subarray
+
+---
+
+## 🔹 Advanced Prefix Applications
+
+27. **238** – Product of Array Except Self
+28. **1712** – Ways to Split Array Into Three Subarrays
+29. **1658** – Minimum Operations to Reduce X to Zero
+30. **548** – Split Array with Equal Sum
