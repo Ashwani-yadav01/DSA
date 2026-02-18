@@ -6,12 +6,12 @@
 2. **724** – Find Pivot Index S
 3. **1480** – Running Sum of 1d Array S
 4. **1732** – Find the Highest Altitude S
-5. **304** – Range Sum Query 2D - Immutable
-6. **2559** – Count Vowel Strings in Ranges
-7. **1413** – Minimum Value to Get Positive Step by Step Sum
+5. **304** – Range Sum Query 2D - Immutable S
+6. **2559** – Count Vowel Strings in Ranges S
+7. **1413** – Minimum Value to Get Positive Step by Step Sum S 
 8. **1854** – Maximum Population Year
-9. **1588** – Sum of All Odd Length Subarrays
-10. **2574** – Left and Right Sum Differences
+9. **1588** – Sum of All Odd Length Subarrays S
+10. **2574** – Left and Right Sum Differences S
 
 ---
 
@@ -29,11 +29,17 @@
 
 ---
 
-## 🔹 Longest Subarray Pattern
+🔹 Longest Subarray (Sliding Window)
 
-16. **325** – Maximum Size Subarray Sum Equals k
-17. **525** – Contiguous Array
-18. **1493** – Longest Subarray of 1's After Deleting One Element
+1004 – Max Consecutive Ones III
+
+1493 – Longest Subarray of 1's After Deleting One Element
+
+424 – Longest Repeating Character Replacement
+
+978 – Longest Turbulent Subarray
+
+674 – Longest Continuous Increasing Subsequence
 
 ---
 
