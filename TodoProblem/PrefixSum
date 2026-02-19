@@ -21,11 +21,11 @@
 
 ## 🔹 Prefix + HashMap (Subarray Sum K Pattern)
 
-11. **560** – Subarray Sum Equals K
-12. **523** – Continuous Subarray Sum
-13. **974** – Subarray Sums Divisible by K
-14. **930** – Binary Subarrays With Sum
-15. **1248** – Count Number of Nice Subarrays
+11. **560** – Subarray Sum Equals K S
+12. **523** – Continuous Subarray Sum S
+13. **974** – Subarray Sums Divisible by K S
+14. **930** – Binary Subarrays With Sum  S
+15. **1248** – Count Number of Nice Subarrays S
 
 ---
 
@@ -52,23 +52,23 @@
 
 ## 🔹 Difference Array / Range Update
 
-21. **1094** – Car Pooling
-22. **1109** – Corporate Flight Bookings
-23. **848** – Shifting Letters
-24. **370** – Range Addition
-
+21. **1094** – Car Pooling S
+22. **1109** – Corporate Flight Bookings S
+23. **848** – Shifting Letters S
+24. **3356** - Zero array transformation2 S
 ---
 
 ## 🔹 Prefix XOR
 
-25. **1442** – Count Triplets That Can Form Two Arrays of Equal XOR
-26. **1310** – XOR Queries of a Subarray
+25. **1442** – Count Triplets That Can Form Two Arrays of Equal XOR S
+26. **1310** – XOR Queries of a Subarray S
 
 ---
 
 ## 🔹 Advanced Prefix Applications
 
-27. **238** – Product of Array Except Self
+27. **238** – Product of Array Except Self S 
 28. **1712** – Ways to Split Array Into Three Subarrays
 29. **1658** – Minimum Operations to Reduce X to Zero
-30. **548** – Split Array with Equal Sum
+30. **1013** – Partition Array Into Three Parts With Equal Sum S
+
