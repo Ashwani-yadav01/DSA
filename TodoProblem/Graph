@@ -1,0 +1,107 @@
+
+
+## 🔹 1. DFS/BFS Basics (Foundation MUST strong)
+
+1. **200** – Number of Islands S
+2. **695** – Max Area of Island S
+3. **733** – Flood Fill S
+4. **130** – Surrounded Regions S
+5. **547** – Number of Provinces S
+6. **994** – Rotting Oranges S
+7. **417** – Pacific Atlantic Water Flow S
+8. **79** – Word Search S
+9. **463** – Island Perimeter S
+10. **1020** – Number of Enclaves S
+
+---
+
+## 🔹 2. BFS Shortest Path (Unweighted)
+
+11. **542** – 01 Matrix
+12. **752** – Open the Lock
+13. **1091** – Shortest Path in Binary Matrix
+14. **1926** – Nearest Exit from Entrance in Maze
+15. **1162** – As Far from Land as Possible
+16. **1306** – Jump Game III
+17. **815** – Bus Routes
+18. **909** – Snakes and Ladders
+
+---
+
+## 🔹 3. Topological Sort + Cycle Detection
+
+19. **207** – Course Schedule
+20. **210** – Course Schedule II
+21. **802** – Find Eventual Safe States
+22. **785** – Is Graph Bipartite?
+23. **886** – Possible Bipartition
+24. **1557** – Minimum Number of Vertices to Reach All Nodes
+25. **1462** – Course Schedule IV
+26. **851** – Loud and Rich
+
+---
+
+## 🔹 4. Dijkstra / Weighted Graph (VERY IMPORTANT)
+
+27. **743** – Network Delay Time
+28. **787** – Cheapest Flights Within K Stops
+29. **1631** – Path With Minimum Effort
+30. **1514** – Path With Maximum Probability
+31. **1368** – Minimum Cost to Make at Least One Valid Path
+32. **778** – Swim in Rising Water
+33. **1976** – Number of Ways to Arrive at Destination
+34. **1334** – Find the City With the Smallest Number of Neighbors
+
+---
+
+## 🔹 5. Union Find (DSU)
+
+35. **684** – Redundant Connection
+36. **685** – Redundant Connection II
+37. **721** – Accounts Merge
+38. **1319** – Number of Operations to Make Network Connected
+39. **990** – Satisfiability of Equality Equations
+40. **1202** – Smallest String With Swaps
+41. **947** – Most Stones Removed with Same Row or Column
+42. **1584** – Min Cost to Connect All Points
+
+---
+
+## 🔹 6. Grid + Advanced BFS
+
+43. **934** – Shortest Bridge
+44. **1254** – Number of Closed Islands
+45. **1905** – Count Sub Islands
+46. **1765** – Map of Highest Peak
+47. **1293** – Shortest Path in Grid with Obstacles Elimination
+48. **847** – Shortest Path Visiting All Nodes
+
+---
+
+## 🔹 7. Important Mixed / Interview Favorites
+
+49. **133** – Clone Graph
+50. **797** – All Paths From Source to Target
+51. **1466** – Reorder Routes to Make All Paths Lead to City Zero
+52. **1376** – Time Needed to Inform All Employees
+53. **1443** – Minimum Time to Collect All Apples
+54. **1971** – Find if Path Exists in Graph
+55. **1786** – Number of Restricted Paths From First to Last Node
+56. **1129** – Shortest Path with Alternating Colors
+
+---
+
+## 🔹 8. Final Confidence Boost (Do Last)
+
+57. **2101** – Detonate the Maximum Bombs
+58. **1345** – Jump Game IV
+59. **1654** – Minimum Jumps to Reach Home
+60. **864** – Shortest Path to Get All Keys
+
+---
+
+
+---
+
+## 
+ 
