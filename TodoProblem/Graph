@@ -18,13 +18,13 @@
 ## 🔹 2. BFS Shortest Path (Unweighted)
 
 11. **542** – 01 Matrix
-12. **752** – Open the Lock
+12. **752** – Open the Lock S
 13. **1091** – Shortest Path in Binary Matrix
-14. **1926** – Nearest Exit from Entrance in Maze
-15. **1162** – As Far from Land as Possible
-16. **1306** – Jump Game III
-17. **815** – Bus Routes
-18. **909** – Snakes and Ladders
+14. **1926** – Nearest Exit from Entrance in Maze S
+15. **1162** – As Far from Land as Possible S
+16. **1306** – Jump Game III S
+17. **815** – Bus Routes S
+18. **909** – Snakes and Ladders S 
 
 ---
 
@@ -34,33 +34,33 @@
 20. **210** – Course Schedule II
 21. **802** – Find Eventual Safe States
 22. **785** – Is Graph Bipartite?
-23. **886** – Possible Bipartition
-24. **1557** – Minimum Number of Vertices to Reach All Nodes
-25. **1462** – Course Schedule IV
-26. **851** – Loud and Rich
+23. **886** – Possible Bipartition S
+24. **1557** – Minimum Number of Vertices to Reach All Nodes S
+25. **1462** – Course Schedule IV S
+26. **851** – Loud and Rich S
 
 ---
 
 ## 🔹 4. Dijkstra / Weighted Graph (VERY IMPORTANT)
 
-27. **743** – Network Delay Time
-28. **787** – Cheapest Flights Within K Stops
-29. **1631** – Path With Minimum Effort
-30. **1514** – Path With Maximum Probability
-31. **1368** – Minimum Cost to Make at Least One Valid Path
-32. **778** – Swim in Rising Water
+27. **743** – Network Delay Time S
+28. **787** – Cheapest Flights Within K Stops S
+29. **1631** – Path With Minimum Effort S
+30. **1514** – Path With Maximum Probability  S
+31. **1368** – Minimum Cost to Make at Least One Valid Path S
+32. **778** – Swim in Rising Water S
 33. **1976** – Number of Ways to Arrive at Destination
-34. **1334** – Find the City With the Smallest Number of Neighbors
+34. **1334** – Find the City With the Smallest Number of Neighbors S
 
----
+--
 
 ## 🔹 5. Union Find (DSU)
 
-35. **684** – Redundant Connection
-36. **685** – Redundant Connection II
+35. **684** – Redundant Connection S
+36. **685** – Redundant Connection II S
 37. **721** – Accounts Merge
-38. **1319** – Number of Operations to Make Network Connected
-39. **990** – Satisfiability of Equality Equations
+38. **1319** – Number of Operations to Make Network Connected S
+39. **990** – Satisfiability of Equality Equations S
 40. **1202** – Smallest String With Swaps
 41. **947** – Most Stones Removed with Same Row or Column
 42. **1584** – Min Cost to Connect All Points
@@ -98,10 +98,3 @@
 59. **1654** – Minimum Jumps to Reach Home
 60. **864** – Shortest Path to Get All Keys
 
----
-
-
----
-
-## 
- 
