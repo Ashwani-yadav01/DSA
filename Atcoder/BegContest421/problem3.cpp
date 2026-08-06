@@ -38,7 +38,6 @@ int solve(vector<int> arr, int start)
 
     return swaps;
 }
-
 int main()
 {
     int N;
